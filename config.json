@@ -1,0 +1,32 @@
+{
+    "ServerName":"",
+    "RunMode":"debug",
+    "Ssluse":"N",
+    "Sslkey":"",
+    "Sslcrt":"",
+    "MysqlDBConfig" : {
+        "StrID":"root",
+        "StrPasswd":"",
+        "StrIP":"localhost",
+        "NPort":3306,
+        "StrDBname":""
+    },
+    "MssqlDBConfig" : {
+        "StrID":"",
+        "StrPasswd":"",
+        "StrIP":"",
+        "NPort":3306,
+        "StrDBname":""
+    },
+    "HttpConfig":{
+        "service":"WebTest",
+        "host":"127.0.0.1",
+        "port":"8000"
+    },
+    "CookieConfig":{
+        "Path":     "/",
+		"MaxAge":   86400,
+		"Secure":   false,
+		"HttpOnly": true
+    }
+}
